@@ -1,20 +1,11 @@
 {
   "name": "ember-cli-chart",
-  "version": "3.7.2",
+  "version": "4.0.0",
   "description": "Ember component for ChartJS",
   "keywords": [
     "ember-addon"
   ],
-  "homepage": "https://github.com/aomran/ember-cli-chart",
-  "bugs": {
-    "url": "https://github.com/aomran/ember-cli-chart/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aomran/ember-cli-chart.git"
-  },
   "license": "MIT",
-  "author": "Ahmed Omran",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -31,7 +22,7 @@
   },
   "dependencies": {
     "@ember/render-modifiers": "^1.0.2",
-    "chart.js": "^2.9.0",
+    "chart.js": "^3.8.0",
     "ember-cli-babel": "^7.20.5",
     "ember-cli-htmlbars": "^5.1.2",
     "ember-cli-node-assets": "^0.2.2",
@@ -71,28 +62,10 @@
   "engines": {
     "node": "10.* || >= 12"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "ember": {
     "edition": "octane"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "release-it": {
-    "plugins": {
-      "release-it-lerna-changelog": {
-        "infile": "CHANGELOG.md",
-        "launchEditor": false
-      }
-    },
-    "git": {
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true,
-      "tokenRef": "GITHUB_AUTH"
-    }
   }
 }

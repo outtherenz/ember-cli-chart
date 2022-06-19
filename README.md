@@ -29,7 +29,6 @@ In your handlebars template just do:
   width=CHARTWIDTH
   height=CHARTHEIGHT
   plugins=CHARTPLUGINS
-  customLegendElement=CUSTOMLEGENDELEMENT
 }}
 ```
 
@@ -39,7 +38,6 @@ In your handlebars template just do:
 - CHARTWIDTH: Number; pixel width of the canvas element. Only applies if the chart is NOT responsive.
 - CHARTHEIGHT: Number; pixel height of the canvas element. Only applies if the chart is NOT responsive.
 - CHARTPLUGINS: Array; refer to ChartJS documentaion. This is optional.
-- CUSTOMLEGENDELEMENT: HTMLElement; A custom element to put a custom legend in, when using `legendCallback`. This is optional.
 
 #### Example
 
